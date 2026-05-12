@@ -1,4 +1,13 @@
-const ROWS = [
+interface CompareRow {
+  label: string;
+  hr: string;
+  cs: string;
+  rn: string;
+  us: string;
+  naStyle?: boolean;
+}
+
+const ROWS: CompareRow[] = [
   {
     label: 'What candidates build',
     hr: 'Algorithmic tasks in a sandbox',
@@ -50,7 +59,7 @@ const ROWS = [
     rn: 'Minimal — AI-powered',
     us: 'Zero — fully async, no engineer time',
   },
-] as const;
+];
 
 export default function Compare() {
   return (

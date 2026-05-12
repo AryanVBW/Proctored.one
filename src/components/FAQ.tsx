@@ -1,6 +1,12 @@
 'use client';
 
-const FAQS = [
+interface FaqItem {
+  q: string;
+  a: string;
+  defaultOpen?: boolean;
+}
+
+const FAQS: FaqItem[] = [
   {
     q: 'Is our source code secure?',
     a: 'Each candidate gets an ephemeral, isolated fork of your repo. Sessions are sandboxed, network egress is restricted, and the workspace is destroyed after submission. We never train on your code, and SOC 2 Type II is in progress.',
@@ -34,7 +40,7 @@ const FAQS = [
     q: 'Does Proctored One integrate with our ATS?',
     a: 'Greenhouse, Ashby, and Lever are first-class. Anything else, we ship a webhook in a day.',
   },
-] as const;
+];
 
 export default function FAQ() {
   return (
