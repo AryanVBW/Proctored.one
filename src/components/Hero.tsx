@@ -4,18 +4,17 @@ export default function Hero() {
       <div className="wrap" style={{ position: 'relative', zIndex: 1 }}>
 
         <h1>
-          Good code is easy now.
+          Anyone can ship code now.
           <br />
-          Good engineers <span className="accent ink-underline">aren&rsquo;t.</span>
+          The best engineers <span className="accent ink-underline">still think.</span>
         </h1>
         <p className="lead">
-          Hire the minds, not the keystrokes. Proctored One is the sealed,
-          system-monitored workspace for AI-era technical assessments: line-by-line
-          AI attribution, behavioral signals, and an audit trail that tells you
-          who actually thought through the problem.
+          We&rsquo;re not here to catch cheaters. We&rsquo;re here to help you find the people
+          who genuinely reason, architect, and solve. Proctored One gives you the signal
+          to confidently hire the best-fit minds, not just the best AI users.
         </p>
         <div className="cta-row">
-          <a className="btn btn-primary" href="#cta">
+          <a className="btn btn-primary" href="/book-demo">
             Book a Demo
           </a>
           <a className="btn btn-ghost" href="/control-panel">

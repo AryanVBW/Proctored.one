@@ -2,16 +2,17 @@ export default function FinalCTA() {
   return (
     <section id="cta" className="dark final-cta">
       <div className="wrap" style={{ position: 'relative', zIndex: 1 }}>
-        <span className="eyebrow">Ready when you are</span>
+        <span className="eyebrow">Find your best hire</span>
         <h2 style={{ marginTop: '18px' }}>
-          See how your next hire{' '}
-          <em style={{ fontStyle: 'italic', color: 'var(--amber)' }}>actually</em> builds.
+          Meet the engineers who{' '}
+          <em style={{ fontStyle: 'italic', color: 'var(--amber)' }}>actually think.</em>
         </h2>
         <p>
-          See every line of code, every AI interaction, and every decision before you make an offer.
+          Stop guessing. Get clear, objective signal on who reasons deeply, builds
+          with intention, and is genuinely the best fit for your team.
         </p>
         <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <a className="btn btn-copper" href="#cta">
+          <a className="btn btn-copper" href="/book-demo">
             Book a Demo
           </a>
           <a

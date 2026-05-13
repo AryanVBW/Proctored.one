@@ -14,10 +14,9 @@ export default function Nav() {
           <a href="#pricing">Pricing</a>
           <a href="#compare">Compare</a>
           <a href="#faq">FAQ</a>
-          <a href="/control-panel" className="btn btn-ghost" style={{ padding: '8px 16px' }}>
-            Open Demo →
-          </a>
-
+          <Link href="/book-demo" className="btn btn-ghost" style={{ padding: '8px 16px' }}>
+            Book a Demo
+          </Link>
         </div>
       </div>
     </nav>

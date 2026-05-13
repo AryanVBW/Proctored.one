@@ -88,7 +88,7 @@ export default function Pricing() {
                   </li>
                 ))}
               </ul>
-              <a className={`btn ${plan.ctaClass}`} href="#cta">
+              <a className={`btn ${plan.ctaClass}`} href="/book-demo">
                 {plan.cta}
               </a>
             </div>
