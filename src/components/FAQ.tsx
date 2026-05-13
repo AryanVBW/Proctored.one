@@ -22,11 +22,11 @@ const FAQS: FaqItem[] = [
   },
   {
     q: 'Do candidates need experience with AI coding tools?',
-    a: "No — the IDE includes a short Claude Code primer. We don't penalize unfamiliarity; the AI-prompt-discipline agent grades how the tool was used, not how often.",
+    a: "No. The IDE includes a short Claude Code primer. We don't penalize unfamiliarity; the AI-prompt-discipline agent grades how the tool was used, not how often.",
   },
   {
     q: 'What languages and frameworks are supported?',
-    a: 'Anything that builds on a standard Linux container — TS/JS, Python, Go, Rust, Ruby, Java, C#, and more. If it has a Dockerfile, we run it.',
+    a: 'Anything that builds on a standard Linux container: TS/JS, Python, Go, Rust, Ruby, Java, C#, and more. If it has a Dockerfile, we run it.',
   },
   {
     q: 'How do candidates feel about the experience?',
@@ -34,7 +34,7 @@ const FAQS: FaqItem[] = [
   },
   {
     q: 'Can I see a sample report before committing?',
-    a: 'Yes — open the demo control panel for a full sample submission with multi-agent scoring, attribution, and replay.',
+    a: 'Yes. Open the demo control panel for a full sample submission with multi-agent scoring, attribution, and replay.',
   },
   {
     q: 'Does Proctored One integrate with our ATS?',

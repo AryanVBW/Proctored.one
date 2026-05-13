@@ -20,7 +20,7 @@ const ROWS: CompareRow[] = [
     hr: 'Built-in AI copilot (guarded modes)',
     cs: 'Cosmo AI copilot (GPT-4o)',
     rn: 'AI available, problems designed to limit it',
-    us: 'Native Claude Code — same tool engineers use daily',
+    us: 'Native Claude Code, the same tool engineers use daily',
   },
   {
     label: 'AI interaction tracking',
@@ -38,26 +38,26 @@ const ROWS: CompareRow[] = [
   },
   {
     label: 'Human vs. AI attribution',
-    hr: '— Not available',
-    cs: '— Not available',
-    rn: '— Not available',
+    hr: 'Not available',
+    cs: 'Not available',
+    rn: 'Not available',
     us: 'Every line classified: human, AI-gen, or AI-modified',
     naStyle: true,
   },
   {
     label: 'Works on your codebase',
-    hr: 'No — sandbox only',
-    cs: 'No — sandbox only',
-    rn: 'No — standardized problems',
-    us: 'Yes — clone your repo, build real features',
+    hr: 'No, sandbox only',
+    cs: 'No, sandbox only',
+    rn: 'No, standardized problems only',
+    us: 'Yes, clone your repo and build real features',
     naStyle: true,
   },
   {
     label: 'Interviewer time required',
-    hr: 'Varies — automated + human',
+    hr: 'Varies, automated and human',
     cs: 'Automated + AI / human interviews',
-    rn: 'Minimal — AI-powered',
-    us: 'Zero — fully async, no engineer time',
+    rn: 'Minimal, AI-powered',
+    us: 'Zero. Fully async, no engineer time needed',
   },
 ];
 
@@ -70,7 +70,7 @@ export default function Compare() {
           <h2>The only platform built for how engineers actually work.</h2>
           <p>
             Other platforms bolted AI copilots onto sandbox puzzles. Proctored One was built
-            around AI from day one — on your codebase, with full attribution.
+            around AI from day one, on your codebase, with full attribution.
           </p>
         </div>
 

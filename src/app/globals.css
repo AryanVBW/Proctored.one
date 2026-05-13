@@ -141,6 +141,24 @@ nav.top .links a:hover { color: var(--copper); }
   margin-bottom: 28px;
 }
 .hero h1 .accent { color: var(--copper); font-style: italic; }
+.hero h1 .ink-underline {
+  position: relative;
+  display: inline-block;
+  padding: 0 0.06em 0.12em;
+}
+.hero h1 .ink-underline::after {
+  content: "";
+  position: absolute;
+  left: -0.08em;
+  right: -0.1em;
+  bottom: -0.08em;
+  height: 0.28em;
+  background:
+    url("data:image/svg+xml,%3Csvg width='240' height='44' viewBox='0 0 240 44' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 27C49 39 92 30 131 25C171 20 209 19 232 29' stroke='%23B8632F' stroke-width='9' stroke-linecap='round'/%3E%3Cpath d='M12 31C58 38 100 35 139 30C181 24 211 26 230 33' stroke='%238E4A1F' stroke-width='3.6' stroke-linecap='round' opacity='.92'/%3E%3C/svg%3E")
+    center / 100% 100% no-repeat;
+  pointer-events: none;
+  transform: rotate(-1deg);
+}
 .hero p.lead {
   font-size: 20px; color: var(--ink-2); max-width: 56ch;
   line-height: 1.45; margin-bottom: 40px;

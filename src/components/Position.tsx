@@ -41,11 +41,11 @@ export default function Position() {
           <div>
             <p style={{ fontSize: '18px', lineHeight: 1.6, color: 'var(--ink-2)', marginBottom: '22px' }}>
               In production, AI assistants are part of the ecosystem. Cursor, Claude Code, Copilot,
-              Windsurf, Cody &mdash; they make good engineers faster and let teams focus on the parts
+              Windsurf, Cody. They make good engineers faster and let teams focus on the parts
               that actually matter. We use them ourselves. So do your candidates.
             </p>
             <p style={{ fontSize: '18px', lineHeight: 1.6, color: 'var(--ink-2)', marginBottom: '22px' }}>
-              Interviews are different. The point of an assessment isn&rsquo;t to ban tools &mdash; it&rsquo;s
+              Interviews are different. The point of an assessment isn&rsquo;t to ban tools. It&rsquo;s
               to surface the human underneath them. Can they reason about a system? Choose the right
               abstraction? Debug under pressure? Tell you <em>why</em> they did what they did?
             </p>
@@ -72,8 +72,8 @@ export default function Position() {
                   lineHeight: 1.4,
                 }}
               >
-                &ldquo;Don&rsquo;t test whether they used AI. Test whether they could have built it
-                without.&rdquo;
+                &ldquo;Code is just the residue of thinking.
+                We hire for the thinking.&rdquo;
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function Position() {
                 marginBottom: '8px',
               }}
             >
-              Every AI coding assistant currently in the wild &mdash; detected.
+              Every AI coding assistant currently in the wild, detected.
             </h3>
             <p style={{ color: 'var(--muted)', fontSize: '14px', lineHeight: 1.5, marginBottom: '26px' }}>
               Identified by process signature, network fingerprint, IDE extension footprint,

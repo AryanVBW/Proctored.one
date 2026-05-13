@@ -35,7 +35,7 @@ const PLANS = [
     ctaClass: 'btn-copper',
     features: [
       'Everything in Basic',
-      'Max interviews — 12 review agents',
+      'Max interviews with 12 review agents',
       '12 debrief questions per session',
       'Priority support',
     ],

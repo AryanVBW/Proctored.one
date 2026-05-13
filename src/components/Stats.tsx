@@ -18,7 +18,7 @@ export default function Stats() {
           </div>
           <div className="stat">
             <div className="big">Full<br />replay</div>
-            <div className="label">Every keystroke, every prompt, every decision — reviewable.</div>
+            <div className="label">Every keystroke, every prompt, every decision. All reviewable.</div>
           </div>
         </div>
       </div>

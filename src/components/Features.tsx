@@ -43,7 +43,7 @@ export default function Features() {
           {/* Small card 1 */}
           <div className="feature">
             <h3>Your codebase, their skills</h3>
-            <p>Candidates build on your actual repo. No toy problems, no sandboxes — real complexity, real signal.</p>
+            <p>Candidates build on your actual repo. No toy problems, no sandboxes. Real complexity, real signal.</p>
           </div>
 
           {/* Small card 2 */}

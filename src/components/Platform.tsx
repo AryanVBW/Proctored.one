@@ -87,7 +87,7 @@ function Peek2() {
           </div>
           <div className="msg">add a max retry cap of 5</div>
           <div className="msg ai">Adding guard for attempt &gt;= 5 with a fail-fast log line…</div>
-          <div className="msg">don&apos;t fail silently — bubble up</div>
+          <div className="msg">don&apos;t fail silently, bubble up</div>
         </div>
       </div>
     </div>
@@ -152,11 +152,11 @@ export default function Platform() {
         {/* Step 1 */}
         <div className="step">
           <div className="copy">
-            <span className="eyebrow">01 — Create Assessment</span>
+            <span className="eyebrow">01 · Create Assessment</span>
             <h3>Connect your repo. Define your rubric. Send a link.</h3>
             <p>
               Link a GitHub repo or pick a pre-built template. Define custom evaluation criteria
-              with 10+ AI review agents. Invite candidates with a single link — no scheduling, no
+              with 10+ AI review agents. Invite candidates with a single link. No scheduling, no
               setup.
             </p>
           </div>
@@ -166,10 +166,10 @@ export default function Platform() {
         {/* Step 2 */}
         <div className="step">
           <div className="copy">
-            <span className="eyebrow">02 — Candidate Experience</span>
+            <span className="eyebrow">02 · Candidate Experience</span>
             <h3>Candidates build on your actual codebase.</h3>
             <p>
-              A browser-based IDE with Claude Code on your repo — no local setup. They build,
+              A browser-based IDE with Claude Code on your repo. No local setup. They build,
               debug, and refactor real code, exactly how they&apos;d work on the job.
             </p>
           </div>
@@ -179,7 +179,7 @@ export default function Platform() {
         {/* Step 3 */}
         <div className="step">
           <div className="copy">
-            <span className="eyebrow">03 — Review Results</span>
+            <span className="eyebrow">03 · Review Results</span>
             <h3>Know exactly how they built it.</h3>
             <p>
               Multiple AI agents score every submission against your criteria. See which code was

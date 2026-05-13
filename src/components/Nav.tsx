@@ -17,9 +17,7 @@ export default function Nav() {
           <a href="/control-panel" className="btn btn-ghost" style={{ padding: '8px 16px' }}>
             Open Demo →
           </a>
-          <a href="#cta" className="btn btn-primary" style={{ padding: '10px 18px' }}>
-            Book a Demo
-          </a>
+
         </div>
       </div>
     </nav>

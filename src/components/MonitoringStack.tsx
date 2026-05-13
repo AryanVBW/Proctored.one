@@ -2,7 +2,7 @@ const LAYERS = [
   {
     id: '01 · SYSTEM',
     title: 'System logs & events',
-    desc: 'Process spawn, network egress, USB attach, clipboard transitions — the entire syscall surface, captured.',
+    desc: 'Process spawn, network egress, USB attach, clipboard transitions. The entire syscall surface, captured.',
   },
   {
     id: '02 · CAMERA',
@@ -22,12 +22,12 @@ const LAYERS = [
   {
     id: '05 · ACCESS',
     title: 'App access policies',
-    desc: 'Allowlist only the apps the role requires — Cursor, VS Code, terminal. Everything else is sealed at the OS.',
+    desc: 'Allowlist only the apps the role requires: Cursor, VS Code, terminal. Everything else is sealed at the OS.',
   },
   {
     id: '06 · AI USAGE',
     title: 'AI tool attribution',
-    desc: 'Every prompt, accept, reject — line-by-line. Human / AI-generated / AI-modified, with confidence intervals.',
+    desc: 'Every prompt, accept, and reject tracked line by line. Human / AI-generated / AI-modified, with confidence intervals.',
   },
   {
     id: '07 · NETWORK',
@@ -37,7 +37,7 @@ const LAYERS = [
   {
     id: '08 · AUDIT',
     title: 'Compliance & audit log',
-    desc: 'Tamper-evident, hash-chained event log. SOC 2, ISO 27001, GDPR, EEOC — export-ready in one click.',
+    desc: 'Tamper-evident, hash-chained event log. SOC 2, ISO 27001, GDPR, and EEOC compliant. Export-ready in one click.',
   },
 ];
 
@@ -50,7 +50,7 @@ export default function MonitoringStack() {
           <h2>Eight signal layers. One sealed session.</h2>
           <p>
             Web tracking is a surface. Proctored One operates at the OS, network, behavior, and
-            code layers — so every keystroke is contextualized, every event is timestamped, and
+            code layers, so every keystroke is contextualized, every event is timestamped, and
             every session is replay-ready for audit.
           </p>
         </div>

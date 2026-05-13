@@ -2,20 +2,17 @@ export default function Hero() {
   return (
     <header className="hero">
       <div className="wrap" style={{ position: 'relative', zIndex: 1 }}>
-        <div className="badge">
-          <span className="pill">YC W26</span>
-          <span>Backed by Y Combinator</span>
-        </div>
+
         <h1>
           Good code is easy now.
           <br />
-          Good engineers <span className="accent">aren&rsquo;t.</span>
+          Good engineers <span className="accent ink-underline">aren&rsquo;t.</span>
         </h1>
         <p className="lead">
           Hire the minds, not the keystrokes. Proctored One is the sealed,
-          system-monitored workspace for AI-era technical assessments &mdash;
-          with line-by-line AI attribution, behavioral signals, and an audit
-          trail that tells you who actually thought through the problem.
+          system-monitored workspace for AI-era technical assessments: line-by-line
+          AI attribution, behavioral signals, and an audit trail that tells you
+          who actually thought through the problem.
         </p>
         <div className="cta-row">
           <a className="btn btn-primary" href="#cta">

@@ -8,7 +8,7 @@ export default function FinalCTA() {
           <em style={{ fontStyle: 'italic', color: 'var(--amber)' }}>actually</em> builds.
         </h2>
         <p>
-          See every line of code, every AI interaction, every decision — before you make an offer.
+          See every line of code, every AI interaction, and every decision before you make an offer.
         </p>
         <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
           <a className="btn btn-copper" href="#cta">
